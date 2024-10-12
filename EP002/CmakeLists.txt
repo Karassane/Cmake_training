@@ -12,5 +12,9 @@ project(HelloApp LANGUAGES CXX VERSION 1.0)
 add_executable(HelloAppBinary main.cpp)
 
 
+
+
+
+
 # Set C++ standard version for the project
 target_compile_features(HelloAppBinary PRIVATE cxx_std_20)
