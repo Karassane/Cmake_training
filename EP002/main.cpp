@@ -8,6 +8,7 @@ T add(T a, T b) {
 }
 int main() {
     std::cout << "Hello from C++ with Clake on Linux (std=c++20)" << std::endl;
+    std::cout << "Test conflict solving" << std::endl;
     std::cout << "The sum is: " << add(7, 5) << std::endl;
     return 0;
 }
